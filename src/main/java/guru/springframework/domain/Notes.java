@@ -12,7 +12,7 @@ public class Notes {
     @OneToOne
     private Recipe recipe;
 
-    @Lob
+    @Lob // used to specify that the currently annotated entity attribute represents a large object type
     private String recipeNotes;
 
     public Long getId() {
