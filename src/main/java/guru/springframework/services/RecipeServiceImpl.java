@@ -13,8 +13,9 @@ import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
-@Service
+
 @Slf4j
+@Service
 public class RecipeServiceImpl implements RecipeService {
 
     private final RecipeRepository recipeRepository;
