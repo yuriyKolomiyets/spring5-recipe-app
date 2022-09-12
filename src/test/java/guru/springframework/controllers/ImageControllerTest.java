@@ -27,7 +27,6 @@ public class ImageControllerTest {
     RecipeService recipeService;
 
     ImageController controller;
-
     MockMvc mockMvc;
 
     @Before
