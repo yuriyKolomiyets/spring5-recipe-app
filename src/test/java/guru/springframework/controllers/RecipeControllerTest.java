@@ -107,6 +107,7 @@ public class RecipeControllerTest {
         mockMvc.perform(post("/recipe")
                 .contentType(MediaType.APPLICATION_FORM_URLENCODED)
                 .param("id", "")
+                .param("cookTime", "3000")
 
         )
                 .andExpect(status().isOk())
